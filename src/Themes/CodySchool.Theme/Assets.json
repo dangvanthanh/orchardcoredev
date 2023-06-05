@@ -1,0 +1,12 @@
+[
+    {
+        "generateSourceMaps": false,
+        "inputs": ["Assets/Scripts/codyschool-theme.ts"],
+        "output": "wwwroot/js/codyschool-theme.js"
+    },
+    {
+        "generateSourceMaps": false,
+        "inputs": ["Assets/Styles/codyschool-theme.css"],
+        "output": "wwwroot/css/codyschool-theme.css"
+    }
+]

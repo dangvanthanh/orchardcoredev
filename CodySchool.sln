@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AE482E39-4D1C-480C-AB0F-34E97742270F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodySchool.Web", "src\CodySchool.Web\CodySchool.Web.csproj", "{2991D62D-F13F-492E-B715-8B4A155AFBD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{653C51A0-757B-4159-8BE1-4B1B1BB8F34C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodySchool.Core", "src\Modules\CodySchool.Core\CodySchool.Core.csproj", "{5BEC0242-7555-4484-A414-3519436D9452}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themes", "Themes", "{9AF1B581-C621-413C-8C96-1CBDBCB31B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodySchool.Theme", "src\Themes\CodySchool.Theme\CodySchool.Theme.csproj", "{FBBCAB10-A03D-43EC-880D-881EDD4D9182}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2991D62D-F13F-492E-B715-8B4A155AFBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2991D62D-F13F-492E-B715-8B4A155AFBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2991D62D-F13F-492E-B715-8B4A155AFBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2991D62D-F13F-492E-B715-8B4A155AFBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BEC0242-7555-4484-A414-3519436D9452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BEC0242-7555-4484-A414-3519436D9452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BEC0242-7555-4484-A414-3519436D9452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BEC0242-7555-4484-A414-3519436D9452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBBCAB10-A03D-43EC-880D-881EDD4D9182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBCAB10-A03D-43EC-880D-881EDD4D9182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBCAB10-A03D-43EC-880D-881EDD4D9182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBCAB10-A03D-43EC-880D-881EDD4D9182}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2991D62D-F13F-492E-B715-8B4A155AFBD3} = {AE482E39-4D1C-480C-AB0F-34E97742270F}
+		{653C51A0-757B-4159-8BE1-4B1B1BB8F34C} = {AE482E39-4D1C-480C-AB0F-34E97742270F}
+		{5BEC0242-7555-4484-A414-3519436D9452} = {653C51A0-757B-4159-8BE1-4B1B1BB8F34C}
+		{9AF1B581-C621-413C-8C96-1CBDBCB31B7D} = {AE482E39-4D1C-480C-AB0F-34E97742270F}
+		{FBBCAB10-A03D-43EC-880D-881EDD4D9182} = {9AF1B581-C621-413C-8C96-1CBDBCB31B7D}
+	EndGlobalSection
+EndGlobal
