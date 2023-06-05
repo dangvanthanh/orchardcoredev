@@ -1,7 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+@import "./components/buttons.css";
+
+@import "tailwindcss/utilities";
 
 body {
-    background-color: yellow;
+  @apply bg-slate-50;
 }

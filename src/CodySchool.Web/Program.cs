@@ -6,11 +6,12 @@ builder.Host.UseNLogHost();
 
 builder.Services
     .AddOrchardCms()
-    // // Orchard Specific Pipeline
-    // .ConfigureServices( services => {
-    // })
-    // .Configure( (app, routes, services) => {
-    // })
+    .AddSetupFeatures("OrchardCore.AutoSetup");
+// // Orchard Specific Pipeline
+// .ConfigureServices( services => {
+// })
+// .Configure( (app, routes, services) => {
+// })
 ;
 
 var app = builder.Build();

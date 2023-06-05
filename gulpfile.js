@@ -20,6 +20,8 @@ var fs = require("graceful-fs"),
   postcss = require("gulp-postcss"),
   rtl = require("postcss-rtl"),
   babel = require("gulp-babel"),
+  postcssImport = require("postcss-import"),
+  tailwindcssNesting = require("tailwindcss/nesting"),
   tailwindcss = require("tailwindcss"),
   autoprefixer = require("autoprefixer");
 
@@ -212,6 +214,8 @@ function buildCssPipeline(assetGroup, doConcat, doRebuild) {
 
   var postcssPlugins = [
     rtl(),
+    postcssImport(),
+    tailwindcssNesting(),
     tailwindcss('./tailwind.config.js'),
     autoprefixer()
   ]

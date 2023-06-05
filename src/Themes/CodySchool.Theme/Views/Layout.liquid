@@ -11,10 +11,11 @@
     {% resources type: "HeadLink" %}
     {% resources type: "Stylesheet" %}
     {% resources type: "HeadScript" %}
+    {% comment %} {% stylesheet name:"codyschool-theme", at:"Head" %} {% endcomment %}
 </head>
 <body dir="{{ Culture.Dir }}">
 
-    <h1 class="text-3xl">TailwindCSS + GUlp<h1>
+    <h1>Gulp + TailwindCSS</h1>
     {% render_body %}
     
     <footer>
@@ -22,6 +23,7 @@
     </footer>
     
     {% script name:"jquery", use_cdn:"true", at:"Foot" %}
+    {% script name:"codyschool-theme", at:"Foot" %}
     
     {% resources type: "FootScript" %}
 </body>

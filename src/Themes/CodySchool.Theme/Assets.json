@@ -7,6 +7,7 @@
     {
         "generateSourceMaps": false,
         "inputs": ["Assets/Styles/codyschool-theme.css"],
-        "output": "wwwroot/css/codyschool-theme.css"
+        "output": "wwwroot/css/codyschool-theme.css",
+        "generateRTL": true
     }
 ]
