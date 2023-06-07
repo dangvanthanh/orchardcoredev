@@ -1,10 +1,13 @@
 @import "tailwindcss/base";
-
 @import "tailwindcss/components";
 @import "./components/buttons.css";
-
 @import "tailwindcss/utilities";
 
 body {
   @apply bg-slate-50;
+}
+
+
+[x-cloak] {
+  @apply hidden;
 }

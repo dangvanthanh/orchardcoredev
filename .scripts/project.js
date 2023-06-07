@@ -27,7 +27,7 @@ const glob = require("glob"),
   packageFileName = "package.json";
 
 const projects = glob.sync(
-  "./src/OrchardCore.{Modules,Themes}/*" + projectName + "*/" + packageFileName,
+  "./src/{Modules,Themes}/*" + projectName + "*/" + packageFileName,
   {}
 );
 

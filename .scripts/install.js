@@ -17,7 +17,7 @@ assetPaths.forEach(function (assetPath) {
     {
       cwd: path,
     },
-    (error, stdout, stderr) => {
+    (error) => {
       if (error) {
         console.log(`Failed to run 'npm install' on '${assetPath}'`, error);
       }

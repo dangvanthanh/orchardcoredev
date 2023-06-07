@@ -12,13 +12,13 @@ namespace CodySchool.Theme
             _manifest = new ResourceManifest();
 
             _manifest
-                .DefineStyle("codyschool-theme")
-                .SetUrl("~/CodySchool.Theme/css/codyschool-theme.min.css", "~/CodySchool.Theme/css/codyschool-theme.css")
+                .DefineStyle("codyschool-css")
+                .SetUrl("~/CodySchool.Theme/css/codyschool.min.css", "~/CodySchool.Theme/css/codyschool.css")
                 .SetVersion("1.0.0");
 
             _manifest
-                .DefineScript("codyschool-theme")
-                .SetUrl("~/CodySchool.Theme/js/codyschool-theme.min.js", "~/CodySchool.Theme/js/codyschool-theme.js")
+                .DefineScript("codyschool-js")
+                .SetUrl("~/CodySchool.Theme/js/codyschool.min.js", "~/CodySchool.Theme/js/codyschool.js")
                 .SetVersion("1.0.0");
         }
 

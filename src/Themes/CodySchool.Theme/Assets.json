@@ -1,13 +1,11 @@
 [
     {
-        "generateSourceMaps": false,
-        "inputs": ["Assets/Scripts/codyschool-theme.ts"],
-        "output": "wwwroot/js/codyschool-theme.js"
+        "inputs": ["Assets/Scripts/codyschool.ts"],
+        "output": "wwwroot/js/codyschool.js"
     },
     {
-        "generateSourceMaps": false,
-        "inputs": ["Assets/Styles/codyschool-theme.css"],
-        "output": "wwwroot/css/codyschool-theme.css",
+        "inputs": ["Assets/Styles/codyschool.css"],
+        "output": "wwwroot/css/codyschool.css",
         "generateRTL": true
     }
 ]

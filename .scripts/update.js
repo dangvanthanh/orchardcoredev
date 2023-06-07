@@ -7,7 +7,7 @@ const glob = require("glob"),
   packageFileName = "package.json";
 
 const assetPaths = glob.sync(
-  "./src/OrchardCore.{Modules,Themes}/*/" + packageFileName,
+  "./src/{Modules,Themes}/*/" + packageFileName,
   {}
 );
 
