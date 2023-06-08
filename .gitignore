@@ -182,7 +182,6 @@ nuget.exe
 node_modules/
 
 # Exclude wwwroot and add exceptions
-**/wwwroot/*
 !**/wwwroot/favicon.ico
 !**/wwwroot/.placeholder
 

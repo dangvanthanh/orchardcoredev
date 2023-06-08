@@ -1,0 +1,93 @@
+//
+// Layout Config
+//
+
+// Root font Sizes
+$root-font-size:                                    13px; // Root font size for desktop mode
+$root-font-size-lg:                             	13px; // Root font size for tablet mode
+$root-font-size-md:                             	12px; // Root font size for mobile mode 
+
+// Page background Color
+$page-bg: 											#F5F8FA !default;
+$page-bg-dark: 										#151521 !default;
+
+// Content Spacing
+$content-spacing: (
+	desktop: 30px, // Padding for desktop mode
+	tablet-and-mobile: 15px // Padding for tablet and mobile modes
+) !default;
+
+// Header
+$header-config: (
+	// Desktop Mode
+	desktop: (
+		// Default Mode
+		default: (
+			height: 100px
+		),
+
+		// Fixed Mode
+		fixed: (
+			height: 65px,
+			z-index: 97,
+			bg-color: $white,
+			bg-color-dark: lighten(#1e1e2d, 2%),
+			box-shadow: 0px 10px 30px 0px rgba(82,63,105,0.08),
+			box-shadow-dark: none
+		)
+	),
+
+	// Tablet & Mobile Modes
+	tablet-and-mobile: (
+		// Default Mode
+		default: (
+			height: 60px,
+		),
+
+		// Fixed Mode
+		fixed: (
+			z-index: 97,
+			height: 55px,
+			bg-color: $white,
+			bg-color-dark: lighten(#1e1e2d, 2%),
+			box-shadow: 0px 10px 30px 0px rgba(82,63,105,0.08),
+			box-shadow-dark: none
+		)
+	)
+) !default;
+
+// Aside
+$aside-config: (
+	btn: (
+		active-bg-color: #0B1632,
+		active-bg-color-dark: lighten(#192440, 2%)
+	),
+	bg-color: (
+		primary: #192440,
+		primary-dark: #1e1e2d,
+		secondary: $white,
+		secondary-dark: lighten(#1e1e2d, 2%)
+	),
+	width: (
+		desktop: 425px, 
+		tablet-and-mobile: 300px
+	),
+	primary-width: (
+		desktop: 100px, 
+		tablet-and-mobile: 70px
+	),
+	scrollbar-color: #3b3b64,
+	scrollbar-color-dark: $gray-200-dark,
+	scrollbar-hover-color: lighten(#3b3b64, 3%),
+	scrollbar-hover-color-dark: $gray-300-dark,
+	z-index: 98,
+	transition-speed: 0.3s, 
+	box-shadow: 0px 0px 80px 50px rgba(206, 213, 225, 0.12),
+	box-shadow-dark: none
+) !default;
+
+// Aside
+$footer-config: (	
+	bg-color: $white,
+	bg-color-dark: #1B1B28,
+) !default;

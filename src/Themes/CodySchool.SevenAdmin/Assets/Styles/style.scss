@@ -1,0 +1,21 @@
+//
+// Theme style
+//
+
+// Initialize
+@import "init";
+
+// Components
+@import "components/components";
+
+
+// Layout
+@import "layout/layout";
+
+.menu-admin {
+    flex-direction: column;
+}
+
+.ta-content {
+    margin-left: 0 !important;
+}

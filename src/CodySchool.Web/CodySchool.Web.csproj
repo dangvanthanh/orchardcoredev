@@ -24,7 +24,30 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Modules\CodySchool.Core\CodySchool.Core.csproj" />
-    <ProjectReference Include="..\Themes\CodySchool.Theme\CodySchool.Theme.csproj" />
+    <ProjectReference Include="..\Themes\CodySchool.Seven\CodySchool.Seven.csproj" />
+    <ProjectReference Include="..\Themes\CodySchool.SevenAdmin\CodySchool.SevenAdmin.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ResolvedFileToPublish Update="App_Data\logs\internal-nlog.txt">
+      <RelativePath>App_Data\internal-nlog.txt</RelativePath>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+    </ResolvedFileToPublish>
+    <ResolvedFileToPublish Update="App_Data\tenants.json">
+      <RelativePath>App_Data\tenants.json</RelativePath>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+    </ResolvedFileToPublish>
+    <ResolvedFileToPublish Update="App_Data\Sites\Default\appsettings.json">
+      <RelativePath>App_Data\appsettings.json</RelativePath>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+    </ResolvedFileToPublish>
+    <ResolvedFileToPublish Update="App_Data\Sites\Default\yessql.db">
+      <RelativePath>App_Data\yessql.db</RelativePath>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+    </ResolvedFileToPublish>
+    <ResolvedFileToPublish Update="App_Data\Sites\Default\DataProtection-Keys\key-dedf0223-79d2-4c69-a545-90f5647faff4.xml">
+      <RelativePath>App_Data\key-dedf0223-79d2-4c69-a545-90f5647faff4.xml</RelativePath>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+    </ResolvedFileToPublish>
+  </ItemGroup>
 </Project>

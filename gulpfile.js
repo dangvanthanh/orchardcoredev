@@ -214,10 +214,10 @@ function buildCssPipeline(assetGroup, doConcat, doRebuild) {
 
   var postcssPlugins = [
     rtl(),
-    postcssImport(),
-    tailwindcssNesting(),
-    tailwindcss('./tailwind.config.js'),
-    autoprefixer()
+    // postcssImport(),
+    // tailwindcssNesting(),
+    // tailwindcss('./tailwind.config.js'),
+    // autoprefixer()
   ]
 
   var minifiedStream = gulp
