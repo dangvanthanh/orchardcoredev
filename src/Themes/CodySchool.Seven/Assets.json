@@ -1,11 +1,7 @@
 [
     {
-      "inputs": ["Assets/Styles/style.scss"],
+      "inputs": ["Assets/Styles/codyschool.css"],
       "output": "wwwroot/css/codyschool.css"
-    },
-    {
-      "inputs": ["Assets/Styles/plugins.scss"],
-      "output": "wwwroot/css/codyschool-plugins.css"
     }
   ]
   

@@ -1,0 +1,17 @@
+<div class="book">
+    @* Display Cover zone if there is any shape placed in the zone. *@
+    @if (Model.Cover != null)
+    {
+        <div class="bookCover">
+            @await DisplayAsync(Model.Cover)
+        </div>
+    }
+
+    @* Display Header zone if there is any shape placed in the zone. *@
+    @if (Model.Header != null)
+    {
+        <header class="bookHeader">
+            @await DisplayAsync(Model.Header)
+        </header>
+    }
+</div>
