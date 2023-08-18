@@ -1,0 +1,10 @@
+[
+    {
+        "input": "Assets/Scripts/codyschool-core.ts",
+        "output": "wwwroot/js/codyschool-core"
+    },
+    {
+        "input": "Assets/Styles/codyschool-core.css",
+        "output": "wwwroot/css/codyschool-core"
+    }
+]
