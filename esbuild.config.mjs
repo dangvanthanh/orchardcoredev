@@ -47,24 +47,11 @@ function build(entryPointsObject) {
 
 const srcPath = "./src";
 
-// const topLevelFolders = fs
-//   .readdirSync(srcPath, { withFileTypes: true })
-//   .filter((dirent) => dirent.isDirectory())
-//   .map((dirent) => dirent.name);
-
 const topLevelFolders = glob
   .sync(`${srcPath}/*`, {
     onlyDirectories: true,
   })
   .map((folderPath) => path.basename(folderPath));
-
-// const subFolders = topLevelFolders.flatMap((folder) => {
-//   const folderPath = path.join(srcPath, folder);
-//   return fs
-//     .readdirSync(folderPath, { withFileTypes: true })
-//     .filter((dirent) => dirent.isDirectory())
-//     .map((dirent) => path.join(folder, dirent.name));
-// });
 
 const subFolders = topLevelFolders
   .flatMap((folder) => {

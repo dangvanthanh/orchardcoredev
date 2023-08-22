@@ -1,6 +1,6 @@
 [
   {
-    "inputs": ["Assets/Styles/codyschool-admin.css"],
-    "output": "wwwroot/css/codyschool-admin.css"
+    "input": "Assets/Styles/codyschool-admin.css",
+    "output": "wwwroot/css/codyschool-admin"
   }
 ]

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf ./src/**/wwwroot",
+    "clean": "shx rm -rf \"./src/**/wwwroot\"",
     "build": "npm run clean && node esbuild.config.mjs --production",
     "dev": "node esbuild.config.mjs --development"
   },
@@ -17,6 +17,7 @@
     "esbuild-sass-plugin": "^2.12.0",
     "glob-all": "^3.3.1",
     "postcss": "^8.4.28",
+    "shx": "^0.3.4",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.1.6"
   }

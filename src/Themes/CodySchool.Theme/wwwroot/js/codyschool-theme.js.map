@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../Assets/Scripts/codyschool-theme.ts"],
-  "sourcesContent": ["console.log(1)"],
-  "mappings": ";AAAA,QAAQ,IAAI,CAAC;",
-  "names": []
-}
