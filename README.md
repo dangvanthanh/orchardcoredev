@@ -8,6 +8,7 @@
 - [Esbuild](https://esbuild.github.io/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com/)
+- [Hyperfine](https://github.com/sharkdp/hyperfine)
 
 ## License
 
