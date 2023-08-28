@@ -1,9 +1,9 @@
 using OrchardCore.DisplayManagement.Manifest;
 
 [assembly: Theme(
-    Name = "CodySchool Seven",
+    Name = "CodySchool.Husky",
     Author = "Dang Van Thanh",
     Website = "https://dangthanh.org",
-    Version = "1.0.0",
-    Description = "CodySchool Seven"
+    Version = "0.0.1",
+    Description = "CodySchool.Husky"
 )]

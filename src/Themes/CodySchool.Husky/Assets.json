@@ -1,0 +1,6 @@
+[
+    {
+        "input": "Assets/Styles/codyschool-husky.css",
+        "output": "wwwroot/css/codyschool-husky"
+    }
+]

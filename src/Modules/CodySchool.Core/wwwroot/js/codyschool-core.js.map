@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../Assets/Scripts/codyschool-core.ts"],
-  "sourcesContent": ["console.log(\"Cody School Core\");\n"],
-  "mappings": ";AAAA,QAAQ,IAAI,kBAAkB;",
-  "names": []
-}

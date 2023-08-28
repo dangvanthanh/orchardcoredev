@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../Assets/Styles/codyschool-admin.css"],
-  "sourcesContent": ["body {\n  font-size: 16px;\n  line-height: 1.5;\n}\n"],
-  "mappings": ";AAAA;AACE,aAAW;AACX,eAAa;AACf;",
-  "names": []
-}

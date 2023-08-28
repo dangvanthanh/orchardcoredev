@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
     <Folder Include="Localization\" />
   </ItemGroup>
 
@@ -24,8 +23,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Modules\CodySchool.Core\CodySchool.Core.csproj" />
-    <ProjectReference Include="..\Themes\CodySchool.Seven\CodySchool.Seven.csproj" />
-    <ProjectReference Include="..\Themes\CodySchool.SevenAdmin\CodySchool.SevenAdmin.csproj" />
+    <ProjectReference Include="..\Themes\CodySchool.Husky\CodySchool.Husky.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 
   <ItemGroup>
