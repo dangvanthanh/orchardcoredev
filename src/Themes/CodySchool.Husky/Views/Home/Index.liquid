@@ -3,5 +3,13 @@
     <h1 class="animate-fade-up mt-12 px-6 text-center font-heading text-4xl drop-shadow-sm sm:text-5xl lg:text-6xl">
       Welcome to CodySchool Husky
     </h1>
+    <div id="app">
+      <Cody></Cody>
+    </div>
   </div>
 </div>
+
+{% script name: "codyschool-husky-js", version: "1" %}
+<script>
+    window.initApp('#app')
+</script>

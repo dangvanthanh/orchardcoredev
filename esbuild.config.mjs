@@ -3,6 +3,7 @@ import path from "path";
 import esbuild from "esbuild";
 import { argv } from "node:process";
 import { sassPlugin } from "esbuild-sass-plugin";
+import vuePlugin from "esbuild-plugin-vue3";
 import postcss from "postcss";
 import autoprefixer from "autoprefixer";
 import tailwindcss from "tailwindcss";
@@ -39,6 +40,7 @@ function build(entryPointsObject) {
             return css;
           },
         }),
+        vuePlugin()
       ],
     })
     .then(() => console.log("⚡ Build complete! ⚡"))

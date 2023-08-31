@@ -12,9 +12,14 @@ namespace CodySchool.Husky
             _manifest = new ResourceManifest();
 
             _manifest
+                .DefineScript("codyschool-husky-js")
+                .SetUrl("~/CodySchool.Husky/js/codyschool-husky.min.js", "~/CodySchool.Husky/js/codyschool-husky.js")
+                .SetVersion("1.0.0");
+
+           _manifest
                 .DefineStyle("codyschool-husky-css")
                 .SetUrl("~/CodySchool.Husky/css/codyschool-husky.min.css", "~/CodySchool.Husky/css/codyschool-husky.css")
-                .SetVersion("1.0.0");
+                .SetVersion("1.0.0");    
         }
 
         public void Configure(ResourceManagementOptions options)
