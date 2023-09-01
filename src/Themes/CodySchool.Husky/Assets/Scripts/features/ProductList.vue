@@ -1,33 +1,31 @@
-<script setup lang="ts">
-import { ref } from "vue";
+<script lang="ts">
+import { defineComponent, ref } from "vue";
+import { IProduct } from "../types/Product";
 
-interface IProduct {
-  id: string;
-  name: string;
-  category: string;
-  brand: string;
-  description: string;
-  price: number;
-}
+export default defineComponent({
+  setup() {
+    const products = ref<IProduct[]>([
+      {
+        id: "1",
+        name: 'Apple iMac 27"',
+        category: "PC",
+        brand: "Apple",
+        description: "300",
+        price: 2999,
+      },
+      {
+        id: "2",
+        name: 'Apple iMac 20"',
+        category: "PC",
+        brand: "Apple",
+        description: "200",
+        price: 1499,
+      },
+    ]);
 
-const products = ref<IProduct[]>([
-  {
-    id: "1",
-    name: 'Apple iMac 27"',
-    category: "PC",
-    brand: "Apple",
-    description: "300",
-    price: 2999,
+    return { products };
   },
-  {
-    id: "2",
-    name: 'Apple iMac 20"',
-    category: "PC",
-    brand: "Apple",
-    description: "200",
-    price: 1499,
-  },
-]);
+});
 </script>
 
 <template>
