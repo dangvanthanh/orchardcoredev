@@ -6,19 +6,20 @@
   "scripts": {
     "clean": "shx rm -rf \"./src/**/wwwroot\"",
     "build": "npm run clean && node esbuild.config.mjs --production",
-    "dev": "node esbuild.config.mjs --development"
+    "dev": "node esbuild.config.mjs --development --watch"
   },
   "keywords": [],
   "author": "Dang Van Thanh",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.4.15",
+    "chokidar": "^3.5.3",
     "esbuild": "^0.19.2",
     "esbuild-plugin-vue3": "^0.3.2",
     "esbuild-sass-plugin": "^2.13.0",
     "flowbite": "^1.8.1",
     "glob-all": "^3.3.1",
-    "postcss": "^8.4.28",
+    "postcss": "^8.4.29",
     "postcss-import": "^15.1.0",
     "shx": "^0.3.4",
     "tailwindcss": "^3.3.3",

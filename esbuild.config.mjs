@@ -1,16 +1,16 @@
 import fs from "fs";
 import path from "path";
 import esbuild from "esbuild";
-import { argv } from "node:process";
 import { sassPlugin } from "esbuild-sass-plugin";
 import vuePlugin from "esbuild-plugin-vue3";
 import postcss from "postcss";
 import autoprefixer from "autoprefixer";
 import tailwindcss from "tailwindcss";
 import glob from "glob-all";
+import chokidar from "chokidar";
 
 const production =
-  "development" !== (argv[2].replace("--", "") || process.env.NODE_ENV);
+  process.argv.includes("--production") || process.env.NODE_ENV;
 
 console.log(`⚡ ${production ? "Production" : "Development"} build ⚡`);
 
@@ -27,7 +27,7 @@ function build(entryPointsObject) {
       outdir: "./",
       format: "esm",
       sourcemap: !production,
-      minify: production,
+      minify: true,
       plugins: [
         sassPlugin({
           async transform(source) {
@@ -40,7 +40,7 @@ function build(entryPointsObject) {
             return css;
           },
         }),
-        vuePlugin()
+        vuePlugin(),
       ],
     })
     .then(() => console.log("⚡ Build complete! ⚡"))
@@ -85,4 +85,16 @@ const entryPointsObject = entryPointsConfig.reduce((acc, assetConfig) => {
   return acc;
 }, {});
 
-build(entryPointsObject);
+const watchDirectories = [
+  "./src/**/Scripts/**/*.ts",
+  "./src/**/Scripts/**/*.vue",
+  "./src/**/Styles/**/*.css",
+];
+
+if (process.argv.includes("--watch")) {
+  chokidar.watch(watchDirectories).on("change", () => {
+    build(entryPointsObject);
+  });
+} else {
+  build(entryPointsObject);
+}

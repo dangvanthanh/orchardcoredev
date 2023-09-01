@@ -9,6 +9,8 @@
   "author": "Dang Van Thanh",
   "license": "MIT",
   "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
+    "@vueuse/core": "^10.4.1",
     "flowbite": "^1.8.1",
     "vue": "^3.3.4"
   }
