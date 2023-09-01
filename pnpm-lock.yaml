@@ -31,6 +31,9 @@ devDependencies:
   postcss:
     specifier: ^8.4.28
     version: 8.4.28
+  postcss-import:
+    specifier: ^15.1.0
+    version: 15.1.0(postcss@8.4.28)
   shx:
     specifier: ^0.3.4
     version: 0.3.4

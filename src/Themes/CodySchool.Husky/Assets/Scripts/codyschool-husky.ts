@@ -1,11 +1,5 @@
 import { createApp } from "vue/dist/vue.esm-bundler.js";
-import Cody from "./Cody.vue";
-
-declare global {
-  interface Window {
-    initApp: any;
-  }
-}
+import Cody from "./features/Cody.vue";
 
 window.initApp = function (element: string) {
   if (element) {
