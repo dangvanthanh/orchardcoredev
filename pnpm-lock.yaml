@@ -19,9 +19,6 @@ devDependencies:
   esbuild:
     specifier: ^0.19.2
     version: 0.19.2
-  esbuild-plugin-alias:
-    specifier: ^0.2.1
-    version: 0.2.1
   esbuild-plugin-vue3:
     specifier: ^0.3.2
     version: 0.3.2
@@ -727,10 +724,6 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
-
-  /esbuild-plugin-alias@0.2.1:
-    resolution: {integrity: sha512-jyfL/pwPqaFXyKnj8lP8iLk6Z0m099uXR45aSN8Av1XD4vhvQutxxPzgA2bTcAwQpa1zCXDcWOlhFgyP3GKqhQ==}
-    dev: true
 
   /esbuild-plugin-vue3@0.3.2:
     resolution: {integrity: sha512-KqZUPlIUS4vJLSexV3q5hgqIlsMWzlPtIuvZ1epZQvw/wJ/4vEPzEC1HQZduoHvUYvtnG703hsP1PsdpjTJ3ug==}

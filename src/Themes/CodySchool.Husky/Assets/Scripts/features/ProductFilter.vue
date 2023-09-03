@@ -15,7 +15,7 @@
               aria-hidden="true"
               class="w-5 h-5 text-gray-500 dark:text-gray-400"
               fill="currentColor"
-              viewbox="0 0 20 20"
+              viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -46,7 +46,7 @@
         <svg
           class="h-3.5 w-3.5 mr-2"
           fill="currentColor"
-          viewbox="0 0 20 20"
+          viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
           aria-hidden="true"
         >
@@ -68,7 +68,7 @@
           <svg
             class="-ml-1 mr-1.5 w-5 h-5"
             fill="currentColor"
-            viewbox="0 0 20 20"
+            viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true"
           >
@@ -114,7 +114,7 @@
             xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true"
             class="h-4 w-4 mr-2 text-gray-400"
-            viewbox="0 0 20 20"
+            viewBox="0 0 20 20"
             fill="currentColor"
           >
             <path
@@ -127,7 +127,7 @@
           <svg
             class="-mr-1 ml-1.5 w-5 h-5"
             fill="currentColor"
-            viewbox="0 0 20 20"
+            viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true"
           >
