@@ -31,14 +31,14 @@ export default function useProduct() {
   ];
 
   const products = useStorage("products", productsDefault);
-  const productId = ref('')
+  const productId = ref("");
 
   const getProducts = () => {
     return products;
   };
 
   const getProduct = (id: string) => {
-    return products.value.find((product) => product.id === id);
+    return products.value.find((product: IProduct) => product.id === id);
   };
 
   const getProductById = (id: string) => {
@@ -50,7 +50,7 @@ export default function useProduct() {
   };
 
   const updateProduct = (id: string, newProduct: IProduct) => {
-    products.value = products.value.map((product) => {
+    products.value = products.value.map((product: IProduct) => {
       if (product.id === id) {
         product = Object.assign(product, newProduct);
       }
@@ -60,7 +60,9 @@ export default function useProduct() {
   };
 
   const deleteProduct = (id: string) => {
-    const index = products.value.findIndex((product) => product.id === id);
+    const index = products.value.findIndex(
+      (product: IProduct) => product.id === id
+    );
     products.value.splice(index, 1);
   };
 

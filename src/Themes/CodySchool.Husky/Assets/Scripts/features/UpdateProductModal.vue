@@ -38,7 +38,6 @@
             <span class="sr-only">Close modal</span>
           </button>
         </div>
-        <!-- Modal body -->
         <form action="#">
           <div class="grid gap-4 mb-4 sm:grid-cols-2">
             <div>
@@ -114,8 +113,7 @@
                 rows="5"
                 class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                 placeholder="Write a description..."
-              >
-Standard glass, 3.8GHz 8-core 10th-generation Intel Core i7 processor, Turbo Boost up to 5.0GHz, 16GB 2666MHz DDR4 memory, Radeon Pro 5500 XT with 8GB of GDDR6 memory, 256GB SSD storage, Gigabit Ethernet, Magic Mouse 2, Magic Keyboard - US</textarea
+              ></textarea
               >
             </div>
           </div>

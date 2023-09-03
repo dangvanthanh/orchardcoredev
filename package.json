@@ -12,6 +12,7 @@
   "author": "Dang Van Thanh",
   "license": "MIT",
   "devDependencies": {
+    "@vue/compiler-sfc": "^3.3.4",
     "autoprefixer": "^10.4.15",
     "chokidar": "^3.5.3",
     "esbuild": "^0.19.2",
@@ -24,8 +25,5 @@
     "shx": "^0.3.4",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2"
-  },
-  "dependencies": {
-    "vue": "^3.3.4"
   }
 }
