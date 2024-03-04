@@ -2,12 +2,12 @@ import fs from "fs";
 import path from "path";
 import esbuild from "esbuild";
 import { sassPlugin } from "esbuild-sass-plugin";
-import vuePlugin from "esbuild-plugin-vue3";
 import postcss from "postcss";
 import autoprefixer from "autoprefixer";
 import tailwindcss from "tailwindcss";
 import glob from "glob-all";
 import chokidar from "chokidar";
+import vuePlugin from "esbuild-plugin-vue3";
 
 const production =
   process.argv.includes("--production") || process.env.NODE_ENV;

@@ -12,18 +12,19 @@
   "author": "Dang Van Thanh",
   "license": "MIT",
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.3.4",
-    "autoprefixer": "^10.4.15",
-    "chokidar": "^3.5.3",
-    "esbuild": "^0.19.2",
+    "@types/node": "^20.11.24",
+    "@vue/compiler-sfc": "^3.4.21",
+    "autoprefixer": "^10.4.18",
+    "chokidar": "^3.6.0",
+    "esbuild": "^0.19.12",
     "esbuild-plugin-vue3": "^0.3.2",
-    "esbuild-sass-plugin": "^2.13.0",
+    "esbuild-sass-plugin": "^2.16.1",
     "flowbite": "^1.8.1",
     "glob-all": "^3.3.1",
-    "postcss": "^8.4.29",
+    "postcss": "^8.4.35",
     "postcss-import": "^15.1.0",
     "shx": "^0.3.4",
-    "tailwindcss": "^3.3.3",
-    "typescript": "^5.2.2"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
   }
 }

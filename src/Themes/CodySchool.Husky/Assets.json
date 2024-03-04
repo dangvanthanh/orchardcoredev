@@ -6,5 +6,13 @@
     {
         "input": "Assets/Styles/codyschool-husky.css",
         "output": "wwwroot/css/codyschool-husky"
+    },
+    {
+        "input": "Assets/Scripts/codyschool-dashboard.ts",
+        "output": "wwwroot/js/codyschool-dashboard"
+    },
+    {
+        "input": "Assets/Styles/codyschool-dashboard.css",
+        "output": "wwwroot/css/codyschool-dashboard"
     }
 ]

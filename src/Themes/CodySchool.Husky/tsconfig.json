@@ -1,6 +1,10 @@
 {
   "extends": "../../../tsconfig.json",
   "compilerOptions": {
-    "typeRoots": ["./Assets/Scripts/types"]
+    "typeRoots": ["./Assets/Scripts/types"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./Assets/Scripts/*"]
+    }
   }
 }
